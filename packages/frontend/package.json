@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server",
+    "server": "webpack serve",
     "build:types": "atdgen -t ./src/types/*.atd && atdgen -bs ./src/types/*.atd"
   },
   "keywords": [
@@ -18,31 +18,30 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ahrefs/bs-atdgen-codec-runtime": "^1.4.0",
-    "@glennsl/bs-json": "^4.0.0",
-    "bs-emotion": "^0.1.1",
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.1",
+    "@glennsl/bs-json": "^5.0.4",
+    "bs-emotion": "^0.2.0",
     "bs-emotion-ppx": "^0.0.6",
-    "bs-fetch": "^0.5.0",
-    "bs-json": "^1.0.1",
-    "css-loader": "^3.1.0",
-    "dotenv": "^8.0.0",
-    "file-loader": "^4.1.0",
-    "node-sass": "^4.12.0",
+    "bs-fetch": "^0.6.2",
+    "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
+    "file-loader": "^6.2.0",
+    "node-sass": "^6.0.1",
     "npm-run-all": "^4.1.5",
-    "re-classnames": "^4.0.0",
-    "re-formality": "^3.0.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "reason-react": ">=0.7.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "svg-url-loader": "^3.0.0"
+    "re-classnames": "^5.0.1",
+    "re-formality": "^4.0.0-beta.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": ">=0.9.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "svg-url-loader": "^7.1.1"
   },
   "devDependencies": {
-    "bs-platform": "^5.0.6",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "bs-platform": "^9.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
