@@ -1,24 +1,22 @@
-
 {
   "name": "frontend",
   "reason": {
     "react-jsx": 3
   },
   "sources": {
-    "dir" : "src",
-    "subdirs" : true
+    "dir": "src",
+    "subdirs": true
   },
-  "package-specs": [{
-    "module": "es6",
-    "in-source": true
-  }],
-  "bsc-flags": [
-    "-bs-super-errors",
-    "-open Belt"
+  "package-specs": [
+    {
+      "module": "es6-global",
+      "in-source": true
+    }
   ],
+  "bsc-flags": [ "-bs-super-errors", "-open Belt" ],
   "suffix": ".bs.js",
   "namespace": true,
-  "ppx-flags": ["bs-emotion-ppx/ppx"],
+  "ppx-flags": [ [ "bs-emotion-ppx/ppx" ], [ "re-formality/ppx" ] ],
   "warnings": { "error": "+A-d" },
   "bs-dependencies": [
     "bs-emotion",

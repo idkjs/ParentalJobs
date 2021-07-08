@@ -10,21 +10,21 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.10",
     "connect-history-api-fallback": "^1.6.0",
-    "cross-env": "5.0.5",
-    "dotenv": "^8.0.0",
+    "cross-env": "7.0.3",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "firebase": "^6.3.3",
-    "mongoose": "^5.6.8",
-    "puppeteer": "^1.19.0"
+    "firebase": "^8.7.0",
+    "mongoose": "^5.13.2",
+    "puppeteer": "^10.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
     "connect-history-api-fallback": "^1.6.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.9"
   }
 }
